@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <button onclick="showModal()" class="btn-login w3-button w3-block w3-green w3-section w3-padding"
+                type="submit">Login</button>
+        </div>
+        <div class="body">body</div>
+        <div id="login" class="modal">
+            <div class="">
+                <!-- <span onclick="document.getElementById('login').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="">&times;</span> -->
+                <img class="img_avatar" src="images/avatar.png" alt="">
+            </div>
+
+            <div class="body_layout">
+                <div class="btn_X">
+                    <div>
+                        <button><img src="images/england.png" alt=""></button>
+                        EngLish
+                    </div>
+                    <div class="img_X">
+                        <span class="w3-button w3-display-topright"></span>
+                        <button onclick="hideModal()"><img src="images/dấu X.png" alt=""></button>
+                    </div>
+                </div>
+                <div class="table_login">
+                    <div class="app_logo">
+                        <img src="images/app-logo@2x.png" alt="">
+                        <h6>Login</h6>
+                    </div>
+                    <div class="find_layout">
+                        <div>
+                            <h5>Customer ID</h5>
+                        </div>
+                        <div class="box_login">
+                            <img src="images/icon_login.png" alt="">
+                            <input class="input" type="Text" placeholder="Customer ID">
+                        </div>
+                    </div>
+                    <div class="find_layout">
+                        <div>
+                            <h5>Password</h5>
+                        </div>
+                        <div class="box_login">
+                            <img src="images/lock.png" alt="">
+                            <input class="input" type="text" placeholder=" ********">
+                            <img src="images/show_hide.png" alt="">
+                        </div>
+                    </div>
+                    <div class="find_layout">
+                        <div>
+                            <p>Forgot password</p>
+                        </div>
+                        <div class="btn_login">
+                            <button class="btn_login_out">Login</button>
+                        </div>
+                    </div>
+                    <div class="account">
+                        <div>
+                            Don't have an account?
+                        </div>
+                        <div>
+                            <a href=""> Open Account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
